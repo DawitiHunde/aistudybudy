@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Buddy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Study Buddy</h1>
+            <p class="subtitle">Transform your study notes into interactive flashcards using AI - Full Stack Demo</p>
+        </header>
+        
+        
+        
+        <div class="app-container">
+            <div class="input-section">
+                <h2>Enter Your Study Notes</h2>
+                <textarea id="notes-input" placeholder="Paste your study notes here... (e.g., Photosynthesis is the process used by plants to convert sunlight into energy. The mitochondria are known as the powerhouse of the cell...)"></textarea>
+                <button id="generate-btn">
+                    <i class="fas fa-robot"></i> Generate Flashcards
+                </button>
+            </div>
+            
+            <div class="output-section">
+                <h2>Your Flashcards</h2>
+                <div class="cards-container" id="cards-container">
+                    <!-- Flashcards will be generated here -->
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <p>Enter notes and click generate to create flashcards</p>
+                            </div>
+                            <div class="card-back">
+                                <div class="question">Sample Question</div>
+                                <div class="answer">Sample Answer</div>
+
+
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="server.js"> </script>
+    <script src="script.js"> </script>
+</body>
+
+</html>
